@@ -1,8 +1,11 @@
-#Escriba un programa que reciba como entrada el radio de un círculo y entregue como salida su perímetro y su área:
+#Escriba un programa que calcule el promedio de 4 notas ingresadas por el usuario:
 
-print("Exercise 2")
-radio = float(input("Enter the radio of the circle: "))
-perimeter = 2 * 3.1416 * radio
-area = 3.1416 * radio ** 2
-print(f"The perimeter of the circle is: {round(perimeter,1)} ")
-print(f"The area of the circle is: {round(area,1)} ")
+print("Exercise 3")
+note1=int(input("Please enter the first grade: "))
+note2=int(input("Please enter the second grade: "))
+note3=int(input("Please enter the third grade: "))
+note4=int(input("Please enter the fourth grade: "))
+
+average = (note1 +note2 +note3 +note4)/4
+
+print(f"The average is {average}")
