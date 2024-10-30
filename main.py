@@ -1,5 +1,8 @@
-#Escriba un programa que pida al usuario que escriba su nombre, y lo salude llamándolo por su nombre.
+#Escriba un programa que reciba como entrada el radio de un círculo y entregue como salida su perímetro y su área:
 
-print("Exercise 1")
-name = str(input("Enter your name:"))
-print(f"Hello, {name}")
+print("Exercise 2")
+radio = float(input("Enter the radio of the circle: "))
+perimeter = 2 * 3.1416 * radio
+area = 3.1416 * radio ** 2
+print(f"The perimeter of the circle is: {round(perimeter,1)} ")
+print(f"The area of the circle is: {round(area,1)} ")
