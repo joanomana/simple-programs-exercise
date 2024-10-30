@@ -1,11 +1,7 @@
-#Escriba un programa que calcule el promedio de 4 notas ingresadas por el usuario:
+#Escriba un programa que convierta de centímetros a pulgadas. Una pulgada es igual a 2.54 centímetros.
 
-print("Exercise 3")
-note1=int(input("Please enter the first grade: "))
-note2=int(input("Please enter the second grade: "))
-note3=int(input("Please enter the third grade: "))
-note4=int(input("Please enter the fourth grade: "))
+print("Excercise 4")
 
-average = (note1 +note2 +note3 +note4)/4
-
-print(f"The average is {average}")
+lenght = int(input("Enter the length in cm to convert to inch: "))
+conver = lenght/2.54
+print(f"The length {lenght} cm is equal to {round(conver,4)} inch")
