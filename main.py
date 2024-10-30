@@ -1,10 +1,8 @@
-#Escriba un programa que pregunte al usuario la hora actual t del reloj y un número entero de horas h, que indique qué hora marcará el reloj dentro de h horas:
+#Escriba un programa que entregue la parte decimal de un número real ingresado por el usuario.
 
-print("Exersice 7")
+print("Exercise 8")
 
-hora_actual = int(input("Please enter the current time, only the hour in 12 hours format: "))
-cantidad_horas = int(input("Please enter the number of hours: "))
-
-new_hour = (hora_actual + cantidad_horas) %12
-
-print(f"In {cantidad_horas} hours it will be {new_hour} o`clock") 
+number = float(input("Please enter a number to display the decimal part: "))
+parte_entera = int(number)
+parte_decimal = number - parte_entera
+print(f"The whole part of {number} is {abs(round(parte_decimal,2))}")
