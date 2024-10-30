@@ -1,8 +1,15 @@
-#Escriba un programa que entregue la parte decimal de un número real ingresado por el usuario.
+print("Exercise 9")
 
-print("Exercise 8")
+import math
+note1=int(input("Enter the first grade: "))
+note2=int(input("Enter the second grade: "))
+lab=int(input("Enter the lab grade: "))
 
-number = float(input("Please enter a number to display the decimal part: "))
-parte_entera = int(number)
-parte_decimal = number - parte_entera
-print(f"The whole part of {number} is {abs(round(parte_decimal,2))}")
+minimun_grade = 59.5
+
+final_grade_necesary = (minimun_grade - (lab*0.3))/0.7
+print(final_grade_necesary)
+
+note3=round((final_grade_necesary*3)-(note1+note2))+1
+
+print(f"To pass the class you need {note3} in the contest")
